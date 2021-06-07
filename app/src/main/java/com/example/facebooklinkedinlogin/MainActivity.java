@@ -82,14 +82,14 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         ClickableSpan clickableSpan = new ClickableSpan() {
             @Override
             public void onClick(@NonNull View view) {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://social-media-integra-1.flycricket.io/privacy.html")));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://social-media-integra-3.flycricket.io/privacy.html")));
             }
         };
 
         ClickableSpan clickableSpan1 = new ClickableSpan() {
             @Override
             public void onClick(@NonNull View view) {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://social-media-integra-1.flycricket.io/terms.html")));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://social-media-integra-3.flycricket.io/terms.html")));
             }
         };
 
